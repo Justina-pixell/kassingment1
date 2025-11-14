@@ -1,21 +1,21 @@
-Justina’s Portfolio Website
+Justina’s Portfolio Website 
 
 This is a simple personal portfolio website created as part of an academic assignment.
 The site demonstrates basic web design skills using HTML and CSS, with a clean gradient theme and a structured layout.
 
  Features
 
-Modern gradient UI with bordered container design
+1) Modern gradient UI with bordered container design
 
-Intro/hero section with name, role, and tagline
+2) Intro/hero section with name, role, and tagline
 
-“About Me” section describing my current learning stage
+3) “About Me” section describing my current learning stage
 
-“Projects” section with a placeholder message
+4) “Projects” section with a placeholder message
 
-Contact form design only (non-functional, front-end template)
+5) Contact form design only (non-functional, front-end template)
 
-Avatar-style profile icon for personalization
+6) Avatar-style profile icon for personalization
 
  Technologies Used
 
@@ -32,15 +32,15 @@ Features my name, role (“Aspiring Developer”), and a short descriptive tagli
 
 2. About Me
 
-A brief paragraph summarizing my current experience:
+a) A brief paragraph summarizing my current experience:
 
-Python
+b) Python
 
-Basic C++
+c) Basic C++
 
-Front-end development
+d) Front-end development
 
-Git & Linux
+e ) Git & Linux
 
 Practicing problem-solving daily
 
@@ -53,19 +53,19 @@ A polite note indicating that projects will be added in the future.
 A styled form for Name, Email, and Message.
  This is only a visual template and does not send emails.
 
- Purpose of This Project
+5. Purpose of This Project
 
-This portfolio was created for an assignment to demonstrate:
+a) This portfolio was created for an assignment to demonstrate:
 
-Structuring a webpage with HTML
+b) Structuring a webpage with HTML
 
-Applying custom CSS styling
+c) Applying custom CSS styling
 
-Organizing content into clean sections
+d) Organizing content into clean sections
 
-Creating a visually cohesive personal website
+e) Creating a visually cohesive personal website
 
- Future Enhancements
+ 6.Future Enhancements
 
 Add real project cards
 
