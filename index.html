@@ -1,13 +1,61 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Portfolio Website</title>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Justina's Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" >
+</head>
+<body>
+  
+  <header>
+    <nav class="one">
+      
+      <a href="#about" >About</a> <a href="#projects">Projects</a> <a href="#contact" >Contact</a>
+      
+    </nav>
+  </header>
 
-    </head>
+ 
+  <section id="intro">
+    <center><h2 class="two" style="font-size: 3rem; padding-top: 80px;">Justina Jostle S  </h2>
+    <p style="color: aliceblue; padding-bottom: 20px;font-size: 30px;">Aspiring developer</p>
+    <p style="color: aliceblue; font-size: 20px;">Making the life easier with machine learning </p></center>
+    <div class="button-container"><button class="button-home"><a href="#projects" class="link_button">View My work</a></button> <button class="button-home"><a href="#about" class="link_button">About</a></button></div>
+    
+  </section><hr>
 
-    <body>
-        <h1>Justina Jostle S - Portfolio Website</h1>
 
+  <section id="about">
+    <h2 class="about" >About Me</h2><br>
+    <div class="photo-border"><div class="photo"><p style="scale: 4;">👩‍💻</p></div></div>
+    <p style="font-size: large; " class="about" id="para-about">I’m a developer focused on building strong fundamentals in programming and problem-solving. I enjoy learning new tools, understanding how things work, and improving my coding through daily practice. My current experience includes Python, basic C++, front-end development, Git, and Linux.
 
-    </body>
+  </section>
+  <hr>
+
+  
+ <section id="projects">
+  <h2 class="about" >Projects</h2>
+<p class="about" style="font-size: large;">I’m in the process of developing beginner-friendly coding projects as part of my learning journey.
+This section will be updated once they are ready for showcase.</p>
+ </section><hr>
+
+  
+  <section id="contact">
+    <h2 class="about">Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required class="input_box" />
+      <input type="email" placeholder="Your Email" required class="input_box"/>
+      <textarea placeholder="Your Message" required class="input_box"></textarea>
+      <button type="submit" class="input_box">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p class="about">© 2025 Justina Jostle S. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>

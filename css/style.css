@@ -1,0 +1,121 @@
+.one{
+   display:flex;
+  
+   justify-content: right;
+   align-items: flex-end;
+   gap: 10px;
+   border-radius: 12px;
+   border-bottom-color: rgb(217, 217, 226);
+   border-bottom-style: solid;
+   padding-right: 12px;
+ 
+   
+   height: 30px;
+}
+ a{
+   text-decoration: none;
+   color: aliceblue;
+    
+}
+
+body{
+  background: linear-gradient(to left ,rgb(40, 40, 157),rgb(194, 110, 194));
+  padding: 38px;
+  margin: 50px;
+  border: 8px;
+  border-style: solid;
+  border-color: aliceblue;
+  border-radius: 15px;
+ 
+}
+.two{
+   color: aliceblue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-size: larger;
+   font-family: poppins;
+   font-weight: bolder;
+   
+}
+#intro{
+   height: 550px;
+   
+}
+.button-container{
+   padding-top: 30px;
+   display: grid;
+   justify-content: center;
+   gap: 25px;
+   grid-template-columns: 100px 100px;
+}
+.button-home{
+   border-radius: 12px;
+   height:45px;
+   transition: 0.9s;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: aliceblue;
+}
+.button-home:hover{
+   background-color: aliceblue;
+   scale: 1.4;
+   transition: 0.9s;
+   color:#800080;}
+.button-home a:hover {
+  color: purple;
+  transition: 0.9s;
+}
+
+#projects,#contact{
+   padding-top: 50px;
+}
+
+.about{
+   color: aliceblue; line-height: 30px; 
+   
+  
+   
+}
+#contact-form{
+   display: grid;
+   grid-template-rows: 50px,200px,100px,100px;
+   row-gap: 10px;
+   border-radius: 10px;
+   border-style: solid;
+   padding: 10px;
+   border-color:rgba(255, 255, 255, 0.2) ;
+   
+}
+.input_box{
+   border-radius: 40px;
+   height: 30px;
+   border-color:rgba(255, 255, 255, 0.2) ;
+}
+.photo{
+   height: 200px;
+   width: 250px;
+   background: linear-gradient(to left ,rgb(40, 40, 157),rgb(194, 110, 194));
+   border-radius: 50%;
+   padding-bottom: 30px;
+   display: flex; justify-content: center;align-items: center;
+   
+}
+#para-about{
+   padding-top: 20px;
+   
+
+}
+.photo-border{
+   background-color: aliceblue;
+   height: 250px;
+   width: 270px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 183px;
+   
+}
+.photo-border:hover{
+   scale:1.2;
+}
